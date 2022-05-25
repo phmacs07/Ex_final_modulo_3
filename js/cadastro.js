@@ -13,13 +13,12 @@ let validConfirmaSenha = false;
 let formularioCadastro = document.querySelector("#formulario_cadastro");
 let botaoCriarConta = document.querySelector("#botao_criar_conta");
 
-let regSenha =
-  /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
+let regSenha = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
 
 campoEmail.addEventListener("keyup", verificaEmail);
 
 function verificaEmail() {
-  if (campoEmail.value.length < 10) {
+  if (campoEmail.value.length < 5) {
     labelEmail.setAttribute("style", "color: red");
     labelEmail.innerHTML = "E-mail: *Insira um e-mail válido!";
     campoEmail.setAttribute(
@@ -98,7 +97,7 @@ function verificaEmail() {
       alert(
         "Erro! Por favor, verifique se todos os campos estão preenchidos!"
       );
-    } else if (!validEmail || !validSenha || !validConfirmaSenha) {
+    } else if (!validEmail && !validSenha && !validConfirmaSenha) {
       alert(
         "Campos incorretos! Por favor, verifique se todos os campos estão preenchidos corretamente!"
       );
