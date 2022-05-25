@@ -40,3 +40,4 @@ document.querySelector('#botao-criar-conta-login').addEventListener('click', (e)
     e.preventDefault();
     window.location.href = "cadastro.html";
 });
+//teste git mical
