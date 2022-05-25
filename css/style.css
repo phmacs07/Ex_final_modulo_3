@@ -1,0 +1,252 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+  font-family: "Barlow", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.div1_login {
+  width: 40vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  width: 20rem;
+}
+
+.div2_login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  height: 100vh;
+  background-color: white;
+}
+.form_login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.titulo_login {
+  font-family: "Anek Odia", sans-serif;
+}
+.input_email_login {
+  border: none;
+  margin-top: 5rem;
+  background: transparent;
+  width: 100%;
+  font-family: "Barlow", sans-serif;
+}
+
+.input_password_login {
+  border: 0;
+  background: transparent;
+  width: 100%;
+  margin-top: 1rem;
+  font-family: "Barlow", sans-serif;
+}
+
+.botao_entrar {
+  background-color: #00008b;
+  color: white;
+  margin-top: 3rem;
+  padding: 15px 20px;
+  width: 40%;
+  border-radius: 12px;
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botao_entrar:hover {
+  background: #87cefa;
+  color: white;
+}
+
+.botao_criar_conta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8b0000;
+  color: white;
+  padding: 15px 20px;
+  width: 40%;
+  border-radius: 12px;
+  margin-top: 10px;
+  font-family: "Barlow", sans-serif;
+}
+.botao_criar_conta:hover {
+  background: #cd5c5c;
+  color: white;
+}
+.container_cadastro {
+  display: flex;
+  flex-direction: row;
+}
+
+.div1_cadastro {
+  width: 50vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div2_cadastro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  width: 50vw;
+  height: 100vh;
+  background-color: white;
+}
+.form_cadastro {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.titulo_cadastro {
+  font-family: "Anek Odia", sans-serif;
+}
+.input_email_cadastro {
+  border: 0;
+  margin-top: 4rem;
+  background: transparent;
+  width: 100%;
+  font-family: "Barlow", sans-serif;
+}
+.input_password_casatro {
+  border: 0;
+  background: transparent;
+  width: 100%;
+  margin-top: 1rem;
+  font-family: "Barlow", sans-serif;
+}
+.input_password_casatro_2 {
+  border: 0;
+  background: transparent;
+  width: 100%;
+  margin-top: 1rem;
+  font-family: "Barlow", sans-serif;
+}
+.botao_crie_sua_conta {
+  background-color: #8b0000;
+  color: white;
+  margin-top: 50px;
+  padding: 15px 20px;
+  width: 40%;
+  border-radius: 12px;
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botao_crie_sua_conta:hover {
+  background: #cd5c5c;
+  color: white;
+}
+
+.form-cadastro {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 30px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr.registros:hover {
+  background-color: #bbbb;
+}
+
+.inputRecados {
+  width: 500px;
+  height: 30px;
+  border: 2px solid #dddfe2;
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+.inputRecadosRegistro {
+  width: 200px;
+  height: 30px;
+  border: 2px solid #dddfe2;
+  border-radius: 5px;
+  margin-right: 4rem;
+}
+
+button {
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  color: white;
+}
+
+button.btn-editar {
+  background-color: blue;
+}
+
+button.btn-apagar {
+  background-color: red;
+}
+
+#sair {
+  background-color: red;
+}
+
+input#btn-salvar {
+  background-color: green;
+  color: white;
+  width: 80px;
+  height: 30px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+}
+
+
+
+
+
+.botao_voltar {
+  background-color: #1a008c;
+  color: white;
+  margin-top: 10px;
+  padding: 15px 20px;
+  width: 40%;
+  border-radius: 12px;
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.botao_voltar:hover {
+  background: #1a008cc8;
+  color: white;
+}

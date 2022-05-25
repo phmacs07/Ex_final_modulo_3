@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css"/>
+    <title>Criando sua nova conta</title>
+  </head>
+  <body>
+    <main class="container_cadastro">
+      <div class="div1_cadastro">
+        <img class="img" src="./images/imgcadastro.png" alt="imgcadastro"/>
+      </div>
+      <div class="div2_cadastro">
+        <form class="form_cadastro" id="formulario_cadastro">
+          <h2 class="titulo_cadastro">CRIAR CONTA NO SISTEMA DE RECADOS</h2>
+          <div class="input_email_cadastro">
+            <label for="#input_email" id="label_input_email">E-mail</label><br />
+            <input class="email" type="email" placeholder="Digite seu E-mail" id="input_email"/>
+          </div>
+          <div class="input_password_casatro">
+            <label for="#input_senha" id="label_input_senha">Senha</label>
+            <br />
+            <input class="senha" type="password" placeholder="Digite uma senha" id="input_senha"/>
+          </div>
+          <div class="input_password_casatro_2">
+            <label for="#input_confirma_senha" id="label_input_confirma_senha">Confirme a senha</label>
+            <br />
+            <input class="senha" type="password" placeholder="Digite uma senha" id="input_confirma_senha"/>
+          </div>
+          <button class="botao_crie_sua_conta" type="button" id="botao_criar_conta">CRIE SUA CONTA</button>
+          <button class="botao_voltar" id="botao_voltar" type="button">VOLTAR</button>
+        </form>
+      </div>
+    </main>
+    <script src="./js/cadastro.js"></script>
+  </body>
+</html>
